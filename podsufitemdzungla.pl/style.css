@@ -49,9 +49,10 @@ width:100%;
 }
 #logo{
 padding-left:15px;
-padding-top:15px;
+padding-top:-2px;
 position:fixed;
 z-index:1500;
+opacity:0.7;
 }
 
 #top {
@@ -265,6 +266,7 @@ padding-bottom:30px;
 #biografia{
     width:100%;
     padding-top: 5em;
+    padding-bottom:5em;
     text-align: center;
     margin: 0 auto;
     background-image:url('images/bio.png') ;
@@ -288,8 +290,4 @@ padding-bottom:30px;
     background-size: cover;
     background-position: center center;
 }
-#video iframe{
-    width:60%;
-    height:auto;
-    min-height: 35em;
-}
+
